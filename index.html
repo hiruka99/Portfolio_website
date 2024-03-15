@@ -1,23 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
 <div id="arrow"></div>
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Poertfolio website</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="css/style.css">
   <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-  <link rel="icon" href="css.png">
-  <link rel="icon" href="latest.jpg">
+  <!-- <link rel="icon" href="img/css.png"> -->
+  <link rel="icon" href="img/bbb.jpg">
 </head>
 
-<body class="bg-white">
+<body class="bg-dark">
 
   <div class="one">
     <nav class="navbar navbar-expand-lg bg-body-danger shadow-sm bg-black">
-      <div class="container-fluid justify-content-center">
+      <div class="container-fluid justify-content-end">
+        <a class="navbar-brand" href="#">Navbar</a>
         <a class="navbar-brand fs-3 text-danger fw-bold" href="#"></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
           aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -28,16 +30,16 @@
             <ul class="navbar-nav ">
 
               <li class="nav-item">
-                <a class="nav-link active fs-4 text-danger fw-bold " aria-current="page" href="#about">About me</a>
+                <a class="nav-link active fs-5 text-danger fw-bold " aria-current="page" href="#about">About me</a>
               </li>
               <li class="nav-item ">
-                <a class="nav-link fs-4 text-danger fw-bold" href="#project">Projects</a>
+                <a class="nav-link fs-5 text-danger fw-bold" href="#project">Projects</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link fs-4 text-danger fw-bold" href="#skills">Skills</a>
+                <a class="nav-link fs-5 text-danger fw-bold" href="#skills">Skills</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link  fs-4 text-danger fw-bold" href="#contact">Contact</a>
+                <a class="nav-link  fs-5 text-danger fw-bold" href="#contact">Contact</a>
               </li>
           </div>
           </ul>
@@ -52,7 +54,7 @@
         <div class="row bg-black  min-vh-100 align-items-center align-content-center">
           <div class="col-md-6 ">
             <div class="home-img" class="rounded-circle mw-100 ">
-              <img src="latest.jpg">
+              <img src="img/latest.jpg">
             </div>
           </div>
           <div class="col-md-6 order-md-first ">
@@ -65,7 +67,7 @@
                 is
                 the field I get to express my creativity. I would love to work in your esteemed organisation.
               </p>
-              <a href="#portfolio " class="btn btn-danger px-3 mt-4 ">MY Work</a>
+              <a href="#portfolio " class="btn btn-danger px-3 mt-4 ">My &nbsp;&nbsp;Work</a>
             </div>
           </div>
         </div>
@@ -92,7 +94,7 @@
         <div class="row mx-1 bg-danger">
           <div class="col-md-4 bg-black">
             <div class="home-img" class="rounded-circle mw-50 ">
-              <img src="latest.jpg" class="py-4 m-lg-4">
+              <img src="img/latest.jpg" class="py-4 m-lg-4">
               <ul class="py-4 text-white">
                 <p class="fw-medium">Name : Hiruka Ravihansa</p>
                 <p class="fw-medium">Post : Front End Developer</p>
@@ -202,9 +204,13 @@
   <div class="one">
     <div class="container bg-black mt-0 ">
       <div class="row ">
-        <div class="col-md-4 sm-3 bg-black">
-          <div class="set border border-danger ">
-            <img src="qw.png" class="py-4  mx-1 my-1 ">
+
+        <div class="col-md-3 sm-3 bg-black">
+          <div class="set border  rounded-bottom-4 rounded-top-4">
+            <div class="resize">
+              <img src="img/qw.png" class="py-4  mx-1 my-1 ">
+            </div>
+
             <div class="card-custom content ">
               <h4 class="text-light  m-3 ">Delicious food Poertfolio</h4>
               <p class="text-light m-3">Delivery of fresh hot food within 40 minutes</p>
@@ -214,9 +220,14 @@
 
         </div>
 
-        <div class="col-md-4 sm-3">
-          <div class="set border border-danger">
-            <img src="vm.png" class="py-4 mx-1 my-1 ">
+
+
+        <div class="col-md-3 sm-3">
+          <div class="set border  rounded-bottom-4 rounded-top-4">
+            <div class="resize">
+              <img src="img/vm.png" class="py-4 mx-1 my-1 ">
+            </div>
+
             <h4 class="text-light m-3">Branded Shoes Poertfolio</h4>
             <p class="text-light m-3">A shoe is an item of footwear intended to protect and comfort the human foot.</p>
             <a href="#" class="btn btn-danger px-3 mt-3 mb-3 mx-5">Read more...</a>
@@ -224,18 +235,53 @@
           <br>
 
         </div>
-        <div class="col-md-4 sm-3">
-          <div class="set border border-danger">
-            <img src="ten.png" class="py-4 mx-1 my-1 ">
+        <div class="col-md-3 sm-3">
+          <div class="set border  rounded-bottom-4 rounded-top-4">
+            <div class="resize">
+              <img src="img/ten.png" class="py-4 mx-1 my-1 ">
+            </div>
+
             <h4 class="text-light m-3">Vehicle showroom Poertfolio</h4>
             <p class="text-light m-3">We hava Everything your car needs</p>
             <a href="#" class="btn btn-danger px-3 mt-4 mb-3 mx-5">Read more...</a>
           </div>
         </div>
 
-        <div class="col-md-4 sm-3">
-          <div class="set border border-danger">
-            <img src="eight.jpg" class="py-4 mx-1 my-1 ">
+
+
+        <div class="col-md-3 sm-3 bg-black">
+          <div class="set border  rounded-bottom-4 rounded-top-4">
+            <div class="resize">
+              <img src="img/qw.png" class="py-4  mx-1 my-1 " class="imgggg">
+            </div>
+
+            <div class="card-custom content ">
+              <h4 class="text-light  m-3 ">Delicious food Poertfolio</h4>
+              <p class="text-light m-3">Delivery of fresh hot food within 40 minutes</p>
+              <a href="#" class="btn btn-danger px-3 mt-4  mb-3 mx-5">Read more...</a>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="col-md-3 sm-3">
+          <div class="set border  rounded-bottom-4 rounded-top-4">
+            <div class="resize">
+              <img src="img/ten.png" class="py-4 mx-1 my-1 ">
+            </div>
+
+            <h4 class="text-light m-3">Vehicle showroom Poertfolio</h4>
+            <p class="text-light m-3">We hava Everything your car needs</p>
+            <a href="#" class="btn btn-danger px-3 mt-4 mb-3 mx-5">Read more...</a>
+          </div>
+        </div>
+
+        <div class="col-md-3 sm-3">
+          <div class="set border  rounded-bottom-4 rounded-top-4">
+            <div class="resize">
+              <img src="img/eight.jpg" class="py-4 mx-1 my-1 ">
+            </div>
+
             <h4 class="text-light m-3">Real Estate Landing Page Poertfolio</h4>
             <p class="text-light m-3"> A portfolio landing page is a place for you to showcase previous projects you've.
             </p>
@@ -243,17 +289,23 @@
 
           </div>
         </div>
-        <div class="col-md-4 sm-3  ">
-          <div class="set border border-danger rounded-bottom-1">
-            <img src="nine.png" class="py-4 mx-1 my-1 ">
+        <div class="col-md-3 sm-3  ">
+          <div class="set border  rounded-bottom-4 rounded-top-4">
+            <div class="resize">
+              <img src="img/nine.png" class="py-4 mx-1 my-1 ">
+            </div>
             <h4 class="text-light m-3">Tesla special modification paradise Poertfolio</h4>
             <p class="text-light m-3">Tesla is here to stay & fighting</p>
-            <a href="#" class="btn btn-danger px-3 mt-3 mb-3 mx-5">Read more...</a>
+            <a href="#" class="btn btn-danger px-3 mt-3 mb-5 mx-5">Read more...</a>
           </div>
         </div>
-        <div class="col-md-4 sm-3">
-          <div class="set border border-danger">
-            <img src="five.png" class="py-4 mx-1 my-1 rounded">
+
+        <div class="col-md-3 sm-3">
+          <div class="set border  rounded-bottom-4 rounded-top-4">
+            <div class="resize">
+              <img src="img/five.png" class="py-4 mx-1 my-1 rounded">
+            </div>
+
             <h4 class="text-light m-3">A personal Poertfolio website</h4>
             <p class="text-light m-3"> a compilation of academic and professional materials that exemplifies your
               beliefs,
@@ -324,53 +376,53 @@
         <!-- <div class="col-md-6"> -->
         <div class="col-sm-2  py-5">
           <div class="pic">
-            <img src="ht.png">
+            <img src="img/ht.png">
           </div>
           <br>
           <div class="col-sm-2">
             <div class="pic">
-              <img src="xc.png">
+              <img src="img/xc.png">
             </div>
             <br>
             <div class="col-sm-2">
               <div class="pic">
-                <img src="jo.png">
+                <img src="img/jo.png">
               </div>
-<br>
+              <br>
             </div>
             <div class="col-sm-2">
               <div class="pic">
-                <img src="boo.jpeg">
+                <img src="img/boo.jpeg">
               </div>
 
             </div>
             <br>
-             <div class="col-sm-2">
+            <div class="col-sm-2">
               <div class="pic">
-                <img src="j.png">
+                <img src="img/j.png">
               </div>
 
             </div>
-          
+
           </div>
-        
+
         </div>
 
         <div class="col-sm-2  py-5">
           <div class="pic">
-            <img src="angu.png">
+            <img src="img/angu.png">
           </div>
           <br>
           <div class="col-sm-2">
             <div class="pic">
-              <img src="figma.jpeg">
+              <img src="img/figma.jpeg">
             </div>
 
           </div>
           <br>
-           <div class="col-sm-2">
+          <div class="col-sm-2">
             <div class="pic">
-              <img src="vue.png">
+              <img src="img/vue.png">
             </div>
 
           </div>
@@ -378,12 +430,12 @@
 
           <div class="col-sm-2">
             <div class="pic">
-              <img src="react.png">
+              <img src="img/react.png">
             </div>
             <br>
             <div class="col-sm-2">
               <div class="pic">
-                <img src="node.png">
+                <img src="img/node.png">
               </div>
 
             </div>
@@ -396,17 +448,7 @@
   </div>
   </div>
   <br>
-  <!-- <section class="about " id="project">
-  <div class="container-lg py-4 bg-black">
-    <div class="row justify-content-center bg-black">
-      <div class="col-lg-8 bg-black">
-        <div class="section-title text-center bg-black">
-          <h2 class="fw-bold mb-3 py-4 bg-black text-white ">Projects</h2>
-        </div>
-      </div>
-    </div>
-  </div>
-</section> -->
+
   <div class="one">
     <section>
       <div class="container py-4 bg-black ">
@@ -460,7 +502,7 @@
                   </div>
                   <div class="text ms-3">
                     <h3 class="fs-5 text-danger ">Location</h3>
-                    <p class="text-light ">123/A jaya uayana,Beliatta</p>
+                    <p class="text-light ">123/A jaya Uyana,Beliatta</p>
                   </div>
                 </div>
               </div>
@@ -475,23 +517,28 @@
                       </div>
                       <br><br> <br><br>
                       <div class="col-lg-6 mb-5">
-                        <input type="text" placeholder="Enter youremail"
+                        <input type="text" placeholder="Enter your mail"
                           class="form-control form-control-lg fs-6 border-0 shadow-sm text-danger fw-bold ">
                       </div>
                     </div>
                     <div class="row">
                       <div class="col-lg-12 mb-5">
                         <input type="text" placeholder="Enter your subject"
-                          class="form-control form-control-lg fs-6 border-0 shadow-sm text-danger fw-bold ">
+                          class="form-control form-control-lg fs-6 border-0 shadow-sm text-danger fw-bold border-color-danger">
                       </div>
                     </div>
 
                     <div class="row ">
                       <div class="col-lg-12 mb-5">
-                        <textarea placeholder="Enter your subject"
-                          class="form-control form-control-lg fs-6 border-0 shadow-sm text-danger fw-bold "></textarea>
+                       
+                          <input type="text" placeholder="Enter your subject"
+                          class="form-control form-control-lg fs-6 border-0 shadow-sm text-danger fw-bold ">
+                       
+                       
                       </div>
                     </div>
+                    <button type="button"
+                      class="btn btn-danger fs-6 fw-bold  float-end  justify-content-end ">Submit</button>
                   </form>
                 </div>
               </div>
@@ -512,11 +559,11 @@
 
 
           <div class="red ">
-            <a href="#arrow"><img src="red.png" ></a>
+            <a href="#arrow"><img src="img/red.png"></a>
           </div>
         </div>
 
-     
+
 
       </div>
     </section>

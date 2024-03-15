@@ -1,4 +1,4 @@
-.home {
+/* .home {
     height: 100vh;
     background: url(photo.jpg) no-repeat;
     background-size: cover;
@@ -6,10 +6,10 @@
     display: flex;
     align-items: center;
 
-}
+} */
 
 .home-img>img {
-    width: 50%;
+    width: 40%;
     position: relative;
     left: 90px;
 }
@@ -22,7 +22,10 @@
     line-height: 220%;
 }
 
-@media(max-width:400px) {
+@media(max-width:100px) {
+    .resize{
+        width: 50%;
+    }
     .home-img>img {
         display: flex;
         text-align: center;
@@ -37,6 +40,13 @@
     .home-sci {
         display: flex;
         width: auto;
+    }
+    .one>.container {
+        display:flex;
+        width: auto;
+    }
+    .row>img{
+        display: block;
     }
 }
 
@@ -54,13 +64,13 @@
     transition: all 0.3s;
 }
 
-body {
+/* body {
     background-color: #4A3F35;
-}
+} */
 
 .pic {
-    width: 50px;
-    height: 200px;
+    width: 60px;
+    height: 150px;
 }
 
 .pic>img {
@@ -95,10 +105,10 @@ body {
     width: 40px;
     height: 40px;
     background: transparent;
-    border: 2px solid red;
+    border: 2px solid #D80032;
     border-radius: 50%;
     font-size: 20px;
-    color: red;
+    color: #D80032;
     text-decoration: none;
     z-index: 1;
     overflow: hidden;
@@ -123,7 +133,7 @@ body {
     left: 0;
     width: 0;
     height: 100%;
-    background: red;
+    background: #D80032;
     z-index: -1;
     transition: .6s;
 
@@ -209,16 +219,7 @@ body {
     bottom: 5px;
     left: 0;
 }
-/* .pic {
-    width: 50px;
-    height: 200px;
-    wi
-}
 
-.pic>img {
-    max-width: 100%;
-    max-height: 100%;
-} */
 .red{
     width: 80px;
     height: 200px;
@@ -228,5 +229,29 @@ body {
 .red>a>img{
     max-width: 100%;
     max-height: 100%;
+   
     
 } 
+.resize {
+    width: 95%;
+    height: 100%;
+}
+
+.resize>img {
+    max-width: 100%;
+    max-height:100%;
+    border: 3px solid #D80032;
+    border-radius: 10px;
+    box-shadow: red;
+    padding: 5px;
+}
+input[type=text]{
+    background-color: #c4506b;
+}
+input[type=textarea]{
+    background-color: #c4506b;
+}
+.cl{
+    background-color: #c4506b;
+}
+
